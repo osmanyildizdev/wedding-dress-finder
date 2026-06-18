@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Find Your Dress | Luma Bridal</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="index.html"
+          ><span class="brand-mark"></span><span>Luma Bridal</span></a
+        >
+        <nav class="nav-links">
+          <a href="index.html">Home</a><a href="collections.html">Collections</a
+          ><a class="active" href="dress.html">Find Your Dress</a
+          ><a href="atelier.html">Atelier</a><a href="lookbook.html">Lookbook</a
+          ><a href="appointment.html">Appointment</a>
+        </nav>
+        <div class="nav-actions">
+          <a class="button" href="dress.html">Find Your Dress</a
+          ><a class="button primary" href="appointment.html">Book a Fitting</a>
+        </div>
+        <button class="menu-button" data-menu aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <div class="kicker">Find Your Dress</div>
+          <h1>
+            Tell us your measurements, your budget, and the wedding feeling you
+            want.
+          </h1>
+          <p>
+            This is a warm first match, not a final tailoring chart. It helps
+            you arrive at your fitting with direction, confidence, and a
+            shortlist that already feels close.
+          </p>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container fit-panel" data-finder>
+          <form class="card">
+            <h3>Dress match form</h3>
+            <p>
+              Change any detail and your recommended dresses update instantly.
+            </p>
+            <div class="form-grid">
+              <div class="field">
+                <label>Height (cm)</label
+                ><input
+                  name="height"
+                  type="number"
+                  value="168"
+                  min="140"
+                  max="205"
+                />
+              </div>
+              <div class="field">
+                <label>Bust (cm)</label
+                ><input
+                  name="bust"
+                  type="number"
+                  value="88"
+                  min="60"
+                  max="140"
+                />
+              </div>
+              <div class="field">
+                <label>Waist (cm)</label
+                ><input
+                  name="waist"
+                  type="number"
+                  value="68"
+                  min="45"
+                  max="130"
+                />
+              </div>
+              <div class="field">
+                <label>Hips (cm)</label
+                ><input
+                  name="hip"
+                  type="number"
+                  value="96"
+                  min="70"
+                  max="150"
+                />
+              </div>
+              <div class="field">
+                <label>Wedding date</label><input name="date" type="date" />
+              </div>
+              <div class="field">
+                <label>Venue</label
+                ><select name="venue">
+                  <option value="garden">Garden</option>
+                  <option value="palace">Palace / grand hall</option>
+                  <option value="hotel">Hotel ballroom</option>
+                  <option value="beach">Beach / destination</option>
+                </select>
+              </div>
+              <div class="field">
+                <label>Style preference</label
+                ><select name="vibe">
+                  <option value="romantic">Warm romantic</option>
+                  <option value="minimal">Modern minimal</option>
+                  <option value="glam">Soft glam</option>
+                  <option value="boho">Bohemian</option>
+                  <option value="playful">Vintage playful</option>
+                </select>
+              </div>
+              <div class="field">
+                <label>Budget</label
+                ><select name="budget">
+                  <option value="900">$900 - $1,300</option>
+                  <option value="1500">$1,300 - $1,800</option>
+                  <option value="2200">$1,800 - $2,500</option>
+                  <option value="custom">Flexible for the one</option>
+                </select>
+              </div>
+              <div class="field full">
+                <label>Favorite silhouette</label
+                ><select name="silhouette">
+                  <option value="ball">Ball gown / princess</option>
+                  <option value="mermaid">Mermaid / fitted</option>
+                  <option value="slip">Slip / fluid</option>
+                  <option value="tea">Tea length / vintage</option>
+                </select>
+              </div>
+            </div>
+          </form>
+          <div class="card">
+            <h3>Your recommended dresses</h3>
+            <p>
+              The match considers silhouette, venue, style preference, and
+              height balance. A stylist would refine the details during your
+              appointment.
+            </p>
+            <div class="match-results" data-results></div>
+          </div>
+        </div>
+      </section>
+      <section class="section alt">
+        <div class="container section-head">
+          <div>
+            <div class="kicker">Stylist note</div>
+            <h2>The form is here to guide you, not box you in.</h2>
+          </div>
+          <p class="lede">
+            Many brides fall in love with a silhouette they did not expect. That
+            is why Luma uses your answers as a warm starting point, then
+            confirms everything through movement, posture, fabric, and feeling.
+          </p>
+        </div>
+        <div class="container grid three">
+          <article class="card">
+            <h3>If you want comfort</h3>
+            <p>
+              Prioritize lighter skirts, softer linings, and silhouettes that
+              let you sit, hug, and dance without thinking about the dress.
+            </p>
+          </article>
+          <article class="card">
+            <h3>If you want drama</h3>
+            <p>
+              Choose volume, trains, pearl shine, and structured bodices that
+              photograph beautifully from every angle.
+            </p>
+          </article>
+          <article class="card">
+            <h3>If you want value</h3>
+            <p>
+              Start with a clean base dress and add veil, sleeves, detachable
+              overskirt, or accessories to create more than one look.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>Luma Bridal</h3>
+          <p>
+            A warm modern bridal boutique for affordable dresses, personal
+            measurements, and romantic styling.
+          </p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <a href="collections.html">Collections</a
+          ><a href="lookbook.html">Lookbook</a
+          ><a href="dress.html">Find Your Dress</a>
+        </div>
+        <div>
+          <h4>Atelier</h4>
+          <a href="atelier.html">Our story</a
+          ><a href="atelier.html">Fitting process</a
+          ><a href="appointment.html">Appointments</a>
+        </div>
+        <div>
+          <h4>appointment</h4>
+          <a href="appointment.html">Book a fitting</a
+          ><a href="appointment.html">Custom request</a
+          ><a href="appointment.html">Showroom visit</a>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>© 2026 Luma Bridal concept.</span
+        ><span>Built with HTML, CSS, and JavaScript.</span>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
